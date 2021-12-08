@@ -68,3 +68,14 @@
         line-height: 20px;
     }
 }
+.responsive{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.responsive1{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
