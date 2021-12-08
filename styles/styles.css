@@ -799,3 +799,56 @@ textarea::placeholder {
   letter-spacing: 5px;
   padding: 15px;
 }
+/* WORK SECTION STARTS*/
+.work-img{
+  transition: transform .5s;
+  box-shadow: 3px 3px 8px rgb(0,0,0,0.5);
+}
+.work-img:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.6);
+}
+.work-card-bg{
+    position: absolute;
+    top: 0%;
+    left: 23%;
+    width: 183px;
+    height: 263px;
+    transform: rotate(
+-13deg);
+    z-index: -1;
+    background: #088ae8;
+    border-radius: 10px;
+     transition: transform .2s;
+}
+.work-name{
+  font-family: Coustard;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 51px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 4px solid #088ae8;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.work-tag{
+    font-family: Coustard;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 20px;
+    color: #000000;
+}
+.work-bar{
+  border: 3px solid #088ae8;
+  background: #088ae8;
+  height:30px;
+}
+.responsive{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+/* WORK SECTION ENDS*/
