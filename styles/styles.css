@@ -6,7 +6,17 @@ body {
 html {
   scroll-behavior: smooth;
 }
-nav {
+.nav-item>a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.nav-item>a:hover {
+  color: #088ae8;
+}
+
+/* nav {
   text-align: right;
   margin-top: 58px;
 }
@@ -23,14 +33,12 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: #088ae8;
-}
+} */
 html {
   scroll-behavior: smooth;
 }
 
-.active {
-  color: #088ae8;
-}
+
 .logo {
   position: absolute;
   left: 57px;
@@ -170,23 +178,19 @@ html {
   background: rgba(8, 138, 232, 0.17);
 }
 .bio {
-  position: absolute;
-  text-align: justify;
-  width: 1295px;
-  height: 857px;
-  left: 112px;
-  top: 90px;
-
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
-  font-size: 28px;
-  line-height: 40px;
-  /* or 116% */
-
-  letter-spacing: 0.05em;
-
+  font-size: 20px;
+  line-height: 35px;
   color: #000000;
+  background: rgba(8, 138, 232, 0.17);
+}
+
+
+.contact-input{
+background-color:white;
+border: 2px solid black;
+border-radius: 10px;
 }
 .bt3 {
   position: absolute;
@@ -246,11 +250,9 @@ html {
 }
 
 .head1 {
-  position: absolute;
-  width: 350px;
-  height: 362px;
-  left: 480px;
-  top: 2445px;
+ 
+ 
+ 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -261,11 +263,7 @@ html {
 }
 
 .head2 {
-  position: absolute;
-  width: 302px;
-  height: 362px;
-  left: 480px;
-  top: 2475px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -286,11 +284,10 @@ html {
   vertical-align: middle;
 }
 .box1 {
-  position: absolute;
+ 
   width: 283px;
   height: 45px;
-  left: 830px;
-  top: 2482px;
+  
 
   background: #ffffff;
   border: 2px solid #000000;
@@ -298,11 +295,10 @@ html {
   border-radius: 20px;
 }
 .box2 {
-  position: absolute;
+ 
   width: 283px;
   height: 45px;
-  left: 1168px;
-  top: 2482px;
+ 
 
   background: #ffffff;
   border: 2px solid #000000;
@@ -310,11 +306,10 @@ html {
   border-radius: 20px;
 }
 .box3 {
-  position: absolute;
+ 
   width: 621px;
   height: 45px;
-  left: 830px;
-  top: 2543px;
+
 
   background: #ffffff;
   border: 2px solid #000000;
@@ -796,6 +791,9 @@ textarea::placeholder {
   .work-tag{
     font-size: 1rem;
   }
+}
+.active {
+  color: #088ae8;
 }
 @media only screen and (max-width:480px) {
   .work-name{
