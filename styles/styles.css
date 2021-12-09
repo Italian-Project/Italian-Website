@@ -428,23 +428,7 @@ html {
   transform: rotate(-0.22deg);
 }
 
-.porthead {
-  position: absolute;
 
-  left: 50px;
-  right: 50px;
-  top: 80px;
-
-  font-family: Coustard;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 108px;
-  letter-spacing: 0.07em;
-  text-align: center;
-  color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .portyear {
   position: absolute;
   width: 64px;
@@ -509,23 +493,7 @@ html {
 
   border: 5px solid #088ae8;
 }
-.side1 {
-  position: absolute;
-  width: 400px;
-  height: 600px;
-  left: 110px;
-  top: 340px;
 
-  border: 5px solid #088ae8;
-  box-sizing: border-box;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 159px;
-}
 .side2 {
   position: absolute;
   width: 400px;
@@ -542,45 +510,6 @@ html {
   order: 1;
   flex-grow: 0;
   margin: 0px 159px;
-}
-.side3 {
-  position: absolute;
-  width: 400px;
-  height: 600px;
-  left: 1050px;
-  top: 340px;
-
-  border: 5px solid #088ae8;
-  box-sizing: border-box;
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: 0px 159px;
-}
-
-.box6 {
-  position: absolute;
-  left: 90px;
-  height: 900px;
-  right: 90px;
-  top: 1000px;
-  background: rgba(8, 138, 232, 0.17);
-}
-.arti2 {
-  position: relative;
-  height: 850px;
-  width: 1500px;
-  left: 100px;
-  top: 70px;
-  right: 100px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
 }
 
 .bt6 {
@@ -637,34 +566,6 @@ html {
   text-align: center;
   color: #ffffff;
 }
-.bt8 {
-  position: absolute;
-  width: 200px;
-  height: 52px;
-  right: 50px;
-  top: 880px;
-  mix-blend-mode: normal;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background: #088ae8;
-  border-radius: 26px;
-}
-.back2 {
-  text-decoration: none;
-  position: absolute;
-  width: 149px;
-  height: 28px;
-  left: 30px;
-  top: 12px;
-
-  font-family: Roboto;
-  font-size: 24px;
-  line-height: 28px;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-  color: #ffffff;
-}
-
 .footervideos {
   position: absolute;
   width: 100%;
