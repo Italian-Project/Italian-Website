@@ -830,6 +830,8 @@ textarea::placeholder {
 }
 /* WORK SECTION STARTS*/
 .work-img{
+  width: 183px;
+  height: 263px;
   transition: transform .5s;
   box-shadow: 3px 3px 8px rgb(0,0,0,0.5);
 }
@@ -854,7 +856,7 @@ textarea::placeholder {
   font-family: Coustard;
   font-style: normal;
   font-weight: normal;
-  font-size: 34px;
+  font-size: 1.5rem;
   line-height: 51px;
   color: #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -866,7 +868,7 @@ textarea::placeholder {
     font-family: Coustard;
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
+    font-size: 1.125rem;
     line-height: 20px;
     color: #000000;
 }
@@ -881,3 +883,28 @@ textarea::placeholder {
   height: auto;
 }
 /* WORK SECTION ENDS*/
+
+@media only screen and (max-width:768px) {
+  .work-name{
+    font-size: 1.25rem;
+  }
+  .work-img,.work-card-bg{
+    width: 146px;
+    height: 210px;
+  }
+  .work-tag{
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width:480px) {
+  .work-name{
+    font-size: 1rem;
+  }
+  .work-img,.work-card-bg{
+    width: 92px;
+    height: 132px;
+  }
+  .work-tag{
+    font-size: 0.8rem;
+  }
+}
