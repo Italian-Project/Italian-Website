@@ -216,6 +216,23 @@ html {
   color: #088ae8;
 }
 
+.david {
+  text-decoration: none;
+  position: absolute;
+  width: 149px;
+  height: 28px;
+  left: 77px;
+  top: 12px;
+
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #088ae8;
+}
+
 .box {
   position: absolute;
   width: 1082px;
@@ -328,6 +345,18 @@ html {
   border: 5px solid #088ae8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+}
+
+.david_ideale {
+  position: absolute;
+  width: 302px;
+  height: 52px;
+  left: 500px;
+  top: 750px;
+  mix-blend-mode: normal;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #ffffff;
+  border-radius: 26px;
 }
 .messagenow {
   text-decoration: none;
