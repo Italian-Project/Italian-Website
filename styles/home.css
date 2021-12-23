@@ -17,7 +17,15 @@ html {
   color: #088ae8;
 }
 
-
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
 /* .active {
   color: #088ae8;
 } */
@@ -59,6 +67,24 @@ html {
   font-size: 21px;
   line-height: 44px;
   color: #000000;
+}
+
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  padding-right: 200px;
+  background-color: #7eb444;
+  border:none;
+  position: fixed;
+  top: 20px;
+  left: 0;
+}
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 5px;
 }
 
 .footer{

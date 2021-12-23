@@ -43,6 +43,23 @@
     align-items: center;
     justify-content: center;
   }
+  .navbar-toggler{
+    width: 47px;
+    height: 34px;
+    padding-right: 200px;
+    background-color: #7eb444;
+    border:none;
+    position: fixed;
+    top: 20px;
+    left: 0;
+  }
+  .navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px;
+  }
   .back {
     text-decoration: none;
     font-family: Roboto;
