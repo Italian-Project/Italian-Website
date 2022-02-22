@@ -607,9 +607,6 @@ border-radius: 10px;
 }
 .pagination {
   display: inline-block;
-  position: absolute;
-  top: 4050px;
-  left: 750px;
 }
 
 .pagination a {
@@ -631,9 +628,6 @@ border-radius: 10px;
 }
 .pagination2 {
   display: inline-block;
-  position: absolute;
-  top: 2260px;
-  left: 750px;
 }
 
 .pagination2 a {
