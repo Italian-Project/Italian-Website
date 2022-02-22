@@ -1,0 +1,143 @@
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.porthead {
+    font-family: Coustard;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 108px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    padding-right: 200px;
+    background-color: #7eb444;
+    border:none;
+    position: fixed;
+    top: 20px;
+    left: 0;
+  }
+  .navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px;
+  }
+.img-wrapper{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.side1 {
+    width: 400px;
+    height: 600px;
+    border: 5px solid #088ae8;
+    box-sizing: border-box;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.side3 {
+    width: 400px;
+    height: 600px;
+    border: 5px solid #088ae8;
+    box-sizing: border-box;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.box6 {
+    margin-top: 3rem;
+    width: 80%;
+    background: rgba(8, 138, 232, 0.17);
+}
+.arti2 {
+    padding: 2rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.35rem;
+    line-height: 30px;
+}
+.bt8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    align-self: flex-end;
+    /* width: 200px;
+    height: 52px; */
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #088ae8;
+    border-radius: 26px;
+}
+.bt8>div{
+    padding: 0.5rem 1.5rem;
+}
+.back2 {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media only screen and (max-width:768px) {
+    .porthead{
+        font-size: 2rem;
+    }
+    .side1,.side3{
+        width: 267px;
+        height: 400px;
+    }
+    .img-wrapper{
+        width: 90%;
+    }
+    .box6{
+        width: 90%;
+    }
+    .arti2{
+        font-size: 1.125rem;
+    }
+    .back2{
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width:480px) {
+    .side1,.side3{
+        width: 178px;
+        height: 267px;
+    }
+    .img-wrapper{
+        width: 95%;
+    }
+    .box6{
+        width: 95%;
+    }
+    .arti2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1rem;
+    }
+    .back2{
+        font-size: 1rem;
+    }
+}

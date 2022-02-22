@@ -1,339 +1,520 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WORKS</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
-  <body background="IMAGES/background.png">
-    <!-- ** Header Area Start ** -->
-    <header>
-      <div>
-        <img class="logo" src="images/LOGO.svg" alt="logo" />
-        <div class="nav">
-          <nav>
-            <ul>
-              <li>
-                <a href="home.html">HOME</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WORKS</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body background="IMAGES/background.png">
+  <!-- ** Header Area Start ** -->
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+
+      <div class="container-fluid">
+        <div class="flex-grow-1 mx-3">
+          <a class="navbar-brand " href="#">
+            <img src="images/LOGO.svg" class="my-2" alt="logo" alt="logo" width="300" height="50">
+          </a>
+        </div>
+        <div>
+          <button 
+          class="navbar-toggler collapsed" 
+         data-target="#navbarsExampleDefault" 
+         data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+         aria-label="Toggle navigation" style="position: fixed; top: 0; right: 0;">
+             <span class="line"></span> 
+             <span class="line"></span> 
+             <span class="line"></span> 
+     </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto my-2 mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-current="page" href="home.html">HOME</a>
               </li>
-              <li>
-                <a href="works1.html" class="active">WORKS</a>
+              
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="works1.html" style="color: #088ae8">WORKS</a>
               </li>
-              <li>
-                <a href="exhibitions.html">EXHIBITIONS</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="exhibitions.html">EXHIBITIONS</a>
               </li>
-              <li>
-                <a href="videos.html">VIDEOS</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="videos.html">VIDEOS</a>
               </li>
-              <li>
-                <a href="articles.html">ARTICLES</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="articles.html">ARTICLES</a>
               </li>
-              <li>
-                <a href="comments.html">COMMENTS</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="comments.html">COMMENTS</a>
               </li>
             </ul>
-          </nav>
+          </div>
         </div>
       </div>
-    </header>
-    <!-- ** Header Area End ** -->
-    <div>
-      <!--**W1 Starts**-->
-      <div>
-        <div class="bg1"></div>
-        <img
-          class="w1"
-          src="images/I ponti tra la città celeste e la città terrestre (3).jpg"
-          alt="WORK 1"
-        />
-        <div class="workrec1">
-          <div class="workname1">
-            <p>I ponti tra la città celeste e la città terrestre</p>
-          </div>
-          <div class="year1">
-            <p>2019</p>
-          </div>
-          <div class="dim1">
-            <p>100x70cm</p>
-          </div>
-          <div class="mat1">
-            <p>Tecnica: modellazione plastico-pittorica su tela</p>
-          </div>
-          <div class="bar1a"></div>
-          <div class="bar1b"></div>
+    </nav>
+  </header>
+  <!-- ** Header Area End ** -->
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body" style="display: flex; justify-content: center;">
+          <img src="images/I ponti tra la città celeste e la città terrestre (3).jpg"
+          alt="WORK 1" class="responsive"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
-      <!--**W2**-->
-      <div>
-        <div class="bg2"></div>
-        <img
-          class="w2"
-          src="images/L_Amore per la Vita dell_Altro salverà il Mondo (1).jpg"
-          alt="WORK 2"
-        />
-        <div class="workrec2">
-          <div class="workname2">
-            <p>L'Amore per la Vita dell'Altro salverà il Mondo</p>
-          </div>
-          <div class="year2">
-            <p>2017</p>
-          </div>
-          <div class="dim2">
-            <p>23x46x25cm</p>
-          </div>
-          <div class="mat2">
-            <p>Bronzo</p>
-          </div>
-          <div class="bar2a"></div>
-          <div class="bar2b"></div>
+      
+    </div>
+</div>
+     <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body" style="display: flex; justify-content: center;">
+          <img src="images/L_Amore per la Vita dell_Altro salverà il Mondo (1).jpg"
+          alt="WORK 1" class="responsive"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
-      <!--**W3 Starts**-->
-      <div>
-        <div class="bg3"></div>
-        <img
-          class="w3"
-          src="images/Armonia  tra Sacralità e umanità.jpg"
-          alt="WORK 3"
-        />
-        <div class="workrec3">
-          <div class="workname1">
-            <p>Armonia tra Sacralità e umanità</p>
-          </div>
-          <div class="year1">
-            <p>2014</p>
-          </div>
-          <div class="dim1">
-            <p>33x43x33cm</p>
-          </div>
-          <div class="mat1">
-            <p>tecnica mista patinato bronzo</p>
-          </div>
-          <div class="bar1a"></div>
-          <div class="bar1b"></div>
+      
+    </div>
+    </div>
+     <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+
+      <div class="modal-content">
+        <div class="modal-body" style="display: flex; justify-content: center;">
+          <img src="images/Armonia  tra Sacralità e umanità.jpg"
+          alt="WORK 1" class="responsive"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
-      <!--**W4**-->
-      <div>
-        <div class="bg4"></div>
-        <img
-          class="w4"
-          src="images/Vittoria portatrice  di Vita.jpg"
-          alt="WORK 4"
-        />
-        <div class="workrec4">
-          <div class="workname2">
-            <p>Vittoria portatrice di Vita</p>
+      
+    </div>
+</div>
+     <!-- Modal -->
+     <div class="modal fade" id="myModal3" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+  
+        <div class="modal-content">
+          <div class="modal-body" style="display: flex; justify-content: center;">
+            <img src="images/Vittoria portatrice  di Vita.jpg"
+            alt="WORK 1" class="responsive"/>
           </div>
-          <div class="year2">
-            <p>2014</p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
           </div>
-          <div class="dim2">
-            <p>50x83x40cm</p>
+        </div>
+        
+      </div>
+  </div>
+     <!-- Modal -->
+     <div class="modal fade" id="myModal4" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+  
+        <div class="modal-content">
+          <div class="modal-body" style="display: flex; justify-content: center;">
+            <img src="images/La vita degli altri è nelle nostre mani (3).jpg"
+            alt="WORK 1" class="responsive"/>
           </div>
-          <div class="mat2">
-            <p>Bronzo</p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
           </div>
-          <div class="bar2a"></div>
-          <div class="bar2b"></div>
         </div>
       </div>
-      <!--**W5 Starts**-->
-      <div>
-        <div class="bg5"></div>
-        <img
-          class="w5"
-          src="images/La vita degli altri è nelle nostre mani (3).jpg"
-          alt="WORK 5"
-        />
-        <div class="workrec5">
-          <div class="workname1">
-            <p>La vita degli altri è nelle nostre mani</p>
+      </div>
+         <!-- Modal -->
+     <div class="modal fade" id="myModal5" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+  
+        <div class="modal-content">
+          <div class="modal-body" style="display: flex; justify-content: center;">
+            <img src="images/Venere umanizzatrice.jpg"
+            alt="WORK 1" class="responsive"/>
           </div>
-          <div class="year1">
-            <p>2014</p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
           </div>
-          <div class="dim1">
-            <p>75x26x19cm</p>
+        </div>
+        
+      </div>
+  </div>
+  </div>  
+</div>
+           <!-- Modal -->
+           <div class="modal fade" id="myModal6" role="dialog">
+            <div class="modal-dialog" style="width: 1500px; height: 1000px;">
+            
+              <!-- Modal content-->
+        
+              <div class="modal-content">
+                <div class="modal-body" style="display: flex; justify-content: center;">
+                  <img src="images/Dallo spazio non finito alla nostra finitudine (1).jpg"
+                  alt="WORK 1" class="responsive"/>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+        </div>
+             <!-- Modal -->
+             <div class="modal fade" id="myModal7" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+          
+                <div class="modal-content">
+                  <div class="modal-body" style="display: flex; justify-content: center;">
+                    <img src="images/L_Italia per la cultura della Vita dell_ Altro (1).jpg"
+                    alt="WORK 1" class="responsive"/>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                
+              </div>
           </div>
-          <div class="mat1">
-            <p>Bronzo</p>
           </div>
-          <div class="bar1a"></div>
-          <div class="bar1b"></div>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal8" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+        
+              <div class="modal-content">
+                <div class="modal-body" style="display: flex; justify-content: center;">
+                  <img src="images/Tri-ovulità (1).jpg"
+                  alt="WORK 1" class="responsive"/>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+        </div>
+           <!-- Modal -->
+           <div class="modal fade" id="myModal9" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+        
+              <div class="modal-content">
+                <div class="modal-body" style="display: flex; justify-content: center;">
+                  <img src="images/Quale bellezza per quale vittoria (1).jpg"
+                  alt="WORK 1" class="responsive"/>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+        </div>
+               <!-- Modal -->
+               <div class="modal fade" id="myModal10" role="dialog">
+                <div class="modal-dialog">
+                
+                  <!-- Modal content-->
+            
+                  <div class="modal-content">
+                    <div class="modal-body" style="display: flex; justify-content: center;">
+                      <img src="images/David ideale (1).jpg"
+                      alt="WORK 1" class="responsive"/>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+            </div>
+            </div>
+        
+  <div class="d-flex my-3 flex-column">
+   
+    <!--**W1 Starts**-->
+    <div class="work d-flex justify-content-start my-3">
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" style="background: none; border: none;"><img class="work-img rounded" src="images/I ponti tra la città celeste e la città terrestre (3).jpg"
+          alt="WORK 1" class="responsive"/></button>
+   
+        
+      </div>
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p class="work-name py-1 px-2 text-center" >I ponti tra la città celeste e la città terrestre</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2">2019</p>
+          <div class="work-bar"></div>
+          <p class="work-tag col-2">100x70cm</p>
+          <div class="work-bar"></div>
+          <p class="col-4  work-tag ">Tecnica: modellazione plastico-pittorica su tela</p>
         </div>
       </div>
-      <!--**W6**-->
-      <div>
-        <div class="bg6"></div>
-        <img class="w6" src="images/Venere umanizzatrice.jpg" alt="WORK 6" />
-        <div class="workrec6">
-          <div class="workname2">
-            <p>Venere umanizzatrice</p>
-          </div>
-          <div class="year2">
-            <p>2014</p>
-          </div>
-          <div class="dim2">
-            <p>33x66x29cm</p>
-          </div>
-          <div class="mat2">
-            <p>Bronzo</p>
-          </div>
-          <div class="bar2a"></div>
-          <div class="bar2b"></div>
+    </div>
+  </div>
+
+  <div class="d-flex my-3 flex-column">
+    <!--**W2 Starts**-->
+    <div class="work d-flex justify-content-end my-3">
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p style="" class="work-name py-1 px-2 text-center">L'Amore per la Vita dell'Altro salverà il Mondo</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2">2017</p>
+          <div class="work-bar"></div>
+          <p class="work-tag col-2">23x46x25cm</p>
+          <div class="work-bar"></div>
+          <p class="col-4  work-tag ">Bronzo</p>
         </div>
       </div>
-      <!--**W7 Starts**-->
-      <div>
-        <div class="bg7"></div>
-        <img class="w7" src="images/Trionfo degli archi (1).jpg" alt="WORK 7" />
-        <div class="workrec7">
-          <div class="workname1">
-            <p>Trionfo degli archi</p>
-          </div>
-          <div class="year1">
-            <p></p>
-          </div>
-          <div class="dim1">
-            <p></p>
-          </div>
-          <div class="mat1">
-            <p></p>
-          </div>
-          <div class="bar1a"></div>
-          <div class="bar1b"></div>
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal1" style="background: none; border: none;" ><img class="work-img rounded" src="images/L_Amore per la Vita dell_Altro salverà il Mondo (1).jpg"
+          alt="WORK 1" class="responsive"/></button>
+  
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex my-3 flex-column">
+    <!--**W3 Starts**-->
+    <div class="work d-flex justify-content-start my-3">
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal2" style="background: none; border: none;" ><img class="work-img rounded" src="images/Armonia  tra Sacralità e umanità.jpg"
+          alt="WORK 1" class="responsive"/></button>
+      </div>
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p style="" class="work-name py-1 px-2 text-center">Armonia tra Sacralità e umanità</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2">2014</p>
+          <div class="work-bar"></div>
+          <p class="work-tag col-2">33x43x33cm</p>
+          <div class="work-bar"></div>
+          <p class="col-4  work-tag ">tecnica mista patinato bronzo</p>
         </div>
       </div>
-      <!--**W8**-->
-      <div>
-        <div class="bg8"></div>
-        <img
-          class="w8"
-          src="images/Dallo spazio non finito alla nostra finitudine (1).jpg"
-          alt="WORK 8"
-        />
-        <div class="workrec8">
-          <div class="workname2">
-            <p>Dallo spazio non finito alla nostra finitudine</p>
-          </div>
-          <div class="year2">
-            <p></p>
-          </div>
-          <div class="dim2">
-            <p></p>
-          </div>
-          <div class="mat2">
-            <p></p>
-          </div>
-          <div class="bar2a"></div>
-          <div class="bar2b"></div>
+    </div>
+  </div>
+
+  <div class="d-flex my-3 flex-column">
+    <!--**W4 Starts**-->
+    <div class="work d-flex justify-content-end my-3">
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p style="" class="work-name py-1 px-2 text-center">Vittoria portatrice di Vita</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2">2014</p>
+          <div class="work-bar"></div>
+          <p class="work-tag col-2">50x83x40cm</p>
+          <div class="work-bar"></div>
+          <p class="col-4  work-tag ">Bronzo</p>
         </div>
       </div>
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal3" style="background: none; border: none;" ><img class="work-img rounded" src="images/Vittoria portatrice  di Vita.jpg"
+          alt="WORK 1" class="responsive"/></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex my-3 flex-column">
+    <!--**W5 Starts**-->
+    <div class="work d-flex justify-content-start my-3">
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal4" style="background: none; border: none;" ><img class="work-img rounded" src="images/La vita degli altri è nelle nostre mani (3).jpg"
+          alt="WORK 1" class="responsive"/></button>
+      </div>
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p class="work-name py-1 px-2 text-center">La vita degli altri è nelle nostre mani</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2">2014</p>
+          <div class="work-bar"></div>
+          <p class="work-tag col-2">75x26x19cm</p>
+          <div class="work-bar"></div>
+          <p class="col-4  work-tag ">Bronzo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex my-3 flex-column">
+    <!--**W6 Starts**-->
+    <div class="work d-flex justify-content-end my-3">
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p class="work-name py-1 px-2 text-center">Venere umanizzatrice</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2">2014</p>
+          <div class="work-bar"></div>
+          <p class="work-tag col-2">33x66x29cm</p>
+          <div class="work-bar"></div>
+          <p class="col-4  work-tag ">Bronzo</p>
+        </div>
+      </div>
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal5" style="background: none; border: none;" ><img class="work-img rounded" src="images/Venere umanizzatrice.jpg"
+          alt="WORK 1" class="responsive"/></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex my-3 flex-column">
+    <!-- **W7 Starts** -->
+    <div class="work d-flex justify-content-start my-3">
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal6" style="background: none; border: none;" ><img class="work-img rounded" src="images/Dallo spazio non finito alla nostra finitudine (1).jpg"
+          alt="WORK 1" class="responsive"/></button>
+     
+      </div>
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p class="work-name py-1 px-2 text-center">Dallo spazio non finito alla nostra finitudine</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2"></p>
+           <!-- <div class="work-bar"></div> -->
+          <p class="work-tag col-2"></p>
+          <!-- <div class="work-bar"></div> -->
+         <p class="col-4  work-tag "></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--**W8 Starts**-->
+  <div class="work d-flex justify-content-end my-3">
+    <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+      <p style="" class="work-name py-1 px-2 text-center">L'Italia per la cultura della Vita dell' Altro</p>
+      <div class="d-flex  justify-content-around">
+        <p class="work-tag col-2">2013</p>
+        <div class="work-bar"></div>
+        <p class="work-tag col-2">50x70cm</p>
+        <div class="work-bar"></div>
+        <p class="col-4  work-tag ">modellazione cromatica su tela</p>
+      </div>
+    </div>
+    <div class="position-relative  d-flex justify-content-center col-3">
+      <div class="work-card-bg"></div>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#myModal7" style="background: none; border: none;" ><img class="work-img rounded" src="images/L_Italia per la cultura della Vita dell_ Altro (1).jpg"
+        alt="WORK 1" class="responsive"/></button>
+    </div>
+  </div>
+</div>
+
       <!--**W9 Starts**-->
-      <div>
-        <div class="bg9"></div>
-        <img
-          class="w9"
-          src="images/L_Italia per la cultura della Vita dell_ Altro (1).jpg"
-          alt="WORK 9"
-        />
-        <div class="workrec9">
-          <div class="workname1">
-            <p>L'Italia per la cultura della Vita dell' Altro</p>
-          </div>
-          <div class="year1">
-            <p>2013</p>
-          </div>
-          <div class="dim1">
-            <p>50x70cm</p>
-          </div>
-          <div class="mat1">
-            <p>modellazione cromatica su tela</p>
-          </div>
-          <div class="bar1a"></div>
-          <div class="bar1b"></div>
-        </div>
+    <div class="work d-flex justify-content-start my-3">
+      <div class="position-relative  d-flex justify-content-center col-3">
+        <div class="work-card-bg"></div>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal8" style="background: none; border: none;" ><img class="work-img rounded" src="images/Tri-ovulità (1).jpg"
+          alt="WORK 1" class="responsive"/></button>
       </div>
-      <!--**W10**-->
-      <div>
-        <div class="bg10"></div>
-        <img class="w10" src="images/Tri-ovulità (1).jpg" alt="WORK 10" />
-        <div class="workrec10">
-          <div class="workname2">
-            <p>Tri-ovulità</p>
-          </div>
-          <div class="year2">
-            <p>2013</p>
-          </div>
-          <div class="dim2">
-            <p>35x45cm</p>
-          </div>
-          <div class="mat2">
-            <p>modellazione cromatica su tela</p>
-          </div>
-          <div class="bar2a"></div>
-          <div class="bar2b"></div>
-        </div>
-      </div>
-      <!--**W11 Starts**-->
-      <div>
-        <div class="bg11"></div>
-        <img
-          class="w11"
-          src="images/Quale bellezza per quale vittoria (1).jpg"
-          alt="WORK 11"
-        />
-        <div class="workrec11">
-          <div class="workname1">
-            <p>Quale bellezza per quale vittoria</p>
-          </div>
-          <div class="year1">
-            <p>2013</p>
-          </div>
-          <div class="dim1">
-            <p>50x100cm</p>
-          </div>
-          <div class="mat1">
-            <p>modellazione cromatica su tela</p>
-          </div>
-          <div class="bar1a"></div>
-          <div class="bar1b"></div>
-        </div>
-      </div>
-      <!--**W12**-->
-      <div>
-        <div class="bg12"></div>
-        <img class="w12" src="images/David ideale (1).jpg" alt="WORK 12" />
-        <div class="workrec12">
-          <div class="workname2">
-            <p>David ideale</p>
-          </div>
-          <div class="year2">
-            <p>2012</p>
-          </div>
-          <div class="dim2">
-            <p>425cm</p>
-          </div>
-          <div class="mat2">
-            <p>Tecnica mista patinato bronzo</p>
-          </div>
-          <div class="bar2a"></div>
-          <div class="bar2b"></div>
+      <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+        <p style="" class="work-name py-1 px-2 text-center">Tri-ovulità</p>
+        <div class="d-flex  justify-content-around">
+          <p class="work-tag col-2">2013</p>
+          <div class="work-bar"></div>
+          <p class="work-tag col-2">35x45cm</p>
+          <div class="work-bar"></div>
+          <p class="col-4  work-tag ">modellazione cromatica su tela</p>
         </div>
       </div>
     </div>
-    <div class="footer"></div>
-    <div class="pagination">
-      <a href="#" class="active">1</a>
-      <a href="works2.html">2</a>
-      <a href="works3.html">3</a>
-      <a href="works4.html">4</a>
-      <a href="works5.html">5</a>
-      <a href="works6.html">6</a>
-      <a href="works2.html">&raquo;</a>
+  </div>
+
+  <!--**W10 Starts**-->
+  <div class="work d-flex justify-content-end my-3">
+    <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+      <p style="" class="work-name py-1 px-2 text-center">Trionfo degli archi</p>
+      <div class="d-flex  justify-content-around">
+        <p class="work-tag col-2">2013</p>
+        <div class="work-bar"></div>
+        <p class="work-tag col-2">50x100cm</p>
+        <div class="work-bar"></div>
+        <p class="col-4  work-tag ">modellazione cromatica su tela</p>
+      </div>
     </div>
-  </body>
+    <div class="position-relative  d-flex justify-content-center col-3">
+      <div class="work-card-bg"></div>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#myModal9" style="background: none; border: none;" ><img class="work-img rounded" src="images/Quale bellezza per quale vittoria (1).jpg"
+        alt="WORK 1" class="responsive"/></button>
+    </div>
+  </div>
+</div>
+
+<!--**W11 Starts**-->
+<div class="work d-flex justify-content-start my-3">
+  <div class="position-relative  d-flex justify-content-center col-3">
+    <div class="work-card-bg"></div>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#myModal10" style="background: none; border: none;" ><img class="work-img rounded" src="images/David ideale (1).jpg"
+      alt="WORK 1" class="responsive"/></button>
+  </div>
+  <div class="col-6 d-flex flex-column justify-content-center align-content-center">
+    <p style="" class="work-name py-1 px-2 text-center">David Ideale</p>
+    <div class="d-flex  justify-content-around">
+      <p class="work-tag col-2">2012</p>
+      <div class="work-bar"></div>
+      <p class="work-tag col-2">425cm</p>
+      <div class="work-bar"></div>
+      <p class="col-4  work-tag ">Tecnica mista patinato bronzo</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+ 
+  <div class="pagination">
+    <a href="#" class="active">1</a>
+    <a href="works2.html">2</a>
+    <a href="works3.html">3</a>
+    <a href="works4.html">4</a>
+    <a href="works5.html">5</a>
+    <a href="works6.html">6</a>
+    <a href="works2.html">&raquo;</a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+    
+</body>
+
 </html>
